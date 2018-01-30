@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <title>Universal Design Tokens</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   </head>
   <body>
-    <main>
+    <header role="banner">
+      <a>
+        <img src="./udt-logo.svg" alt="UDT logo" class="logo">
+      </a>
       <h1>Universal Design Tokens</h1>
-      <p>Coming soon!</p>
+    </header>
+    <main>
+      <h2>What is this?</h2>
+      <p>Universal Design Tokens (UDT) is an open-standard file format for expressing design token data.</p>
+      <p>The UDT project is only just starting out, so at this point we're mainly looking for feedback and contributors. Visit the <a href="https://github.com/universal-design-tokens">UDT GitHub organisation</a> to get involved!
+
+      <h2>What problem does it solve?</h2>
+      <p>With the rise of design systems several tools that export, convert or import design token data have been created. Unfortunately, each one uses its own, custom format for expressing that design token data. This limits interoperability between such tools and creates additional work for those wishing to integrate them into their design systems.</p>
+      <p>While most existing tools use simple, self-explanatory JSON or YAML-based formats, the structure of the data within those files is nonetheless custom. Documentation of those file formats are frequently limited or absent completely. This means that others wishing to connect different tools, generate data or process data need to reverse engineer those formats and write their own bespoke code to work with it.</p>
+      <p>Wouldn't it be great if all those tools shared the same file format for design token data? Different tools could then easily be connected in new and interesting ways simply by taking files saved by one and loading them into another. Life would also become easier for developers and companies wishing to make new tools that do interesting things with design token data since they could focus on the tool itself and simply reuse the existing file format.</p>
+      <p>We could stop reinventing wheels and spend more time designing and building cool things.</p>
+      <p>After all, isn't that part of the ethos that underpins all design systems?</p>
     </main>
     <footer>
       &copy; 2018 <a href="http://cirrus.twiddles.com/">James Nash</a>.
