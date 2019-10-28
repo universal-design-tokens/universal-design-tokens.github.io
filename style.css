@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700');
+
+:root {
+  --udt-soot: #111111;
+  --udt-cream: #e9e9d3;
+  --udt-maroon: #a44d83;
+  --udt-blue: #5c7293;
+  --udt-purple: #7c4e8b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* + * {
+  margin-top: 1rem;
+}
+
+html {
+  background-color: var(--udt-cream);
+  color: var(--udt-soot);
+  font-size: 100%;
+  /* Native font stack - as per https://medium.com/skyscanner-design/a-native-font-stack-d9d0db72d6e6 */
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: stretch;
+  padding: 1rem;
+}
+
+[role=banner],
+main,
+body > footer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+  width: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  border-top: 1px solid var(--udt-maroon);
+  padding-top: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+[role=banner] {
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--udt-maroon);
+  padding-bottom: 0.5rem;
+}
+
+[role=banner] > a {
+  width: 40%;
+  max-width: 8rem;
+  margin-right: 2rem;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+}
+
+[role=banner] > h1 {
+  flex-grow: 1;
+}
+
+
