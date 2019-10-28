@@ -1,0 +1,34 @@
+{
+  "name": "udt-website",
+  "version": "1.0.0",
+  "description": "Universal Design Tokens website",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "clean": "del dist/*",
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universal-design-tokens/universal-design-tokens.github.io.git"
+  },
+  "keywords": [
+    "udt",
+    "design",
+    "tokens",
+    "website",
+    "design",
+    "systems"
+  ],
+  "author": "James Nash (http://cirrus.twiddles.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/universal-design-tokens/universal-design-tokens.github.io/issues"
+  },
+  "homepage": "https://github.com/universal-design-tokens/universal-design-tokens.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "del-cli": "^3.0.0"
+  }
+}

@@ -1,5 +1,0 @@
-exclude:
-- ".editorconfig"
-- ".gitignore"
-- CNAME
-- README.md
