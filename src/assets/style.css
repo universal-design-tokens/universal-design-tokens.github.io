@@ -23,6 +23,7 @@ html {
   font-size: 100%;
   /* Native font stack - as per https://medium.com/skyscanner-design/a-native-font-stack-d9d0db72d6e6 */
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, Arial, sans-serif;
+  line-height: 1.5;
 }
 
 body {
